@@ -18,7 +18,7 @@ function convertToBool(text, fault = 'true') {
 /////----------------Global---------------//////
 /////////////////////////////////////////////////
 
-global.thumb = fs.readFileSync('https://i.imgur.com/BML7OMA.jpeg') //Don't change
+global.thumb = fs.readFileSync('./lib/bugs/XByte.png') //Don't change
 //////////////////////////////////////////////////////////
 const BOTNAME = 'X - hacker'; //BOT name
 //////////////////////////////////////////////////////////
@@ -149,7 +149,7 @@ BANNED_USER: process.env.BANNED_USER === undefined ? '' : process.env.BANNED_USE
 AI_MODE: process.env.AI_MODE === undefined ? 'true' : process.env.AI_MODE, //true or false
 //////////////////////////////////////////////////////////
 
-ANTI_LINK: process.env.ANTI_LINK || false  , //true or false
+ANTI_LINK: process.env.ANTI_LINK || true, //true or false
 //////////////////////////////////////////////////////////
 
 BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DETECT,  //true or false    

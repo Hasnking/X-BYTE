@@ -18,7 +18,7 @@ function convertToBool(text, fault = 'true') {
 /////----------------Global---------------//////
 /////////////////////////////////////////////////
 
-global.thumb = fs.readFileSync('./lib/bugs/XByte.png') //Don't change
+global.thumb = fs.readFileSync('https://i.imgur.com/BML7OMA.jpeg') //Don't change
 //////////////////////////////////////////////////////////
 const BOTNAME = 'X - hacker'; //BOT name
 //////////////////////////////////////////////////////////
